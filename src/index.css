@@ -1,10 +1,7 @@
 body {
  
     text-align: center;
-    padding: 20px;
-    border: 3px blue dashed;
-    width: 60%;
-    margin: auto;
+  
 
 }
 
@@ -68,4 +65,27 @@ button {
 
 button:disabled {
   cursor: default;
+}
+
+.dragDropBtn {
+  border: none;
+  text-align: center;
+  background-color: red;
+  height: 50px;
+  border-radius: 12px;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.6s;
+}
+.dragDropBtn:hover {
+  background-color: orangered;
+  color: aliceblue;
+}
+.dropzone-div {
+  text-align: center;
+  background-color: azure;
+  padding: 20px;
+  border: 3px azure dashed;
+  width: 60%;
+  margin: auto;
 }
