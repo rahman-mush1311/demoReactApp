@@ -18,7 +18,7 @@ function App() {
         //this.setState({ invalidImage: 'Please select valid image.' });
         return false;
       }
-      if(file.name.match(/\.(jpg|jpeg|PNG|gif)$/)){
+      if(file.name.match(/\.(jpg|jpeg|PNG|gif|JPEG|png|JPG|gif)$/)){
       const reader = new FileReader();
      
       // onload callback gets called after the reader reads the file data
